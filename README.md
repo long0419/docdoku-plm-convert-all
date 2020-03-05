@@ -1,9 +1,10 @@
 # docdoku-plm-convert-all
-only for deploy
-首先进入docdoku-plm-docker_back 镜像内部，然后下载docdoku ear文件
+only for deploy   
+首先进入docdoku-plm-docker_back 镜像内部，然后下载docdoku的 ear文件   
 ```
 wget http://docdokuplm.com/docdoku-plm/eplmp-server-ear.ear
 ```
+然后修改前端页面js 中涉及后台ip 地址的地方   
 
 1、导入convert 相关：  
 ```
