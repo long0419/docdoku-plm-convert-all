@@ -1,5 +1,9 @@
 # docdoku-plm-convert-all
 only for deploy
+首先进入docdoku-plm-docker_back 镜像内部，然后下载docdoku ear文件
+```
+wget http://docdokuplm.com/docdoku-plm/eplmp-server-ear.ear
+```
 
 1、导入convert 相关：  
 ```
