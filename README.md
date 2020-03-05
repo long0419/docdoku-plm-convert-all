@@ -20,3 +20,6 @@ password : your account password (will be created) - required
 url : url of the DocDokuPLM instance server (http://localhost:8080) - required
 workspaceId : then name of the workspace to be created - optional, will be generated if not specified
 ```
+3、启动es，报错说明内存不足, 执行以下命令
+```
+sudo sysctl -w vm.max_map_count=262144
